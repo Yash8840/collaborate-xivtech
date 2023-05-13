@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/collaborate-xivtech/static/css/main.9e907567.css",
+    "main.js": "/collaborate-xivtech/static/js/main.51935ce3.js",
+    "static/media/img2.png": "/collaborate-xivtech/static/media/img2.e0b53b689fd9881066ec.png",
+    "static/media/img3.jpg": "/collaborate-xivtech/static/media/img3.8bc14b86ce6eff22c3cb.jpg",
+    "static/media/img1.jpg": "/collaborate-xivtech/static/media/img1.d6d4b7703bc14f99bb7e.jpg",
+    "static/media/img4.jpg": "/collaborate-xivtech/static/media/img4.e02e593de8014f43f419.jpg",
+    "index.html": "/collaborate-xivtech/index.html",
+    "main.9e907567.css.map": "/collaborate-xivtech/static/css/main.9e907567.css.map",
+    "main.51935ce3.js.map": "/collaborate-xivtech/static/js/main.51935ce3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e907567.css",
+    "static/js/main.51935ce3.js"
+  ]
+}
