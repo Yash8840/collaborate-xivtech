@@ -1,0 +1,182 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-direction: row;
+}
+.textColumn,
+.imgColumn {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.servicesH3 {
+  margin-bottom: 3%;
+  padding: 9% 0 20%;
+}
+.servicesH2 h2 {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 400%;
+  -webkit-font-feature-settings: "pnum" on,"lnum" on;
+  font-feature-settings: "pnum" on,"lnum" on;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #007bff;
+}
+.servicesP a {
+  color: #000;
+  
+  opacity: 1;
+}
+.servicesP p {
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.servicesP a:hover > img{
+  transform: translateX(10px) ;
+}
+.servicesP a:hover > p{
+ opacity: 0.8;
+}
+.servicesP img {
+  width: 25px;
+  margin-left: 20px;
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+
+img {
+  /* height: 100%; */
+  width: 100%;
+    height: 100%;
+  vertical-align: middle;
+  border-style: none;
+  
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.imgColumn {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.serviceImage{
+  /* object-fit: cover; */
+}
+h2{
+  font-weight: 600;
+    font-size: 240%;
+    margin-bottom: 0;
+}
+h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* CSS values for screen size less than 768px*/
+.servicesP-b p {
+  display: inline-block;
+  font-weight: 700;
+  font-size: large;
+}
+.servicesP-b img {
+  width: 25px;
+  margin-left: 20px;
+}
+.servicesDescription-b {
+  padding: 2% 3%;
+}
+.servicesH2-b {
+  padding: 7% 0;
+}
+.servicesH2-b h2 {
+  font-weight: lighter;
+  -webkit-font-family: Quarto Light,source-han-serif-sc,serif;
+  font-style: normal;
+  font-size: 38px;
+}
+.servicesH3-b {
+  font-weight: lighter;
+  padding: 5% 0 3%;
+}
+.servicesH3-b h3 {
+  font-size: 1.2rem;
+}
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1500px) {
+  .servicesH2 h2 {
+    font-size: 300%;
+    -webkit-transform: scaleY(1.1);
+    transform: scaleY(1.05);
+  }
+  .servicesDescription {
+    padding-right: 20%;
+  }
+  .servicesH3 {
+    padding-bottom: 20%;
+  }
+  .servicesH3 h3,
+  .servicesP p {
+    font-size: 1.3rem;
+    font-weight: lighter;
+  }
+  .servicesH3 h3 {
+    font-weight: 500;
+    font-style: normal;
+  }
+  .servicesH3 h3,
+  .servicesP p {
+    font-size: 1.3rem;
+  }
+  .serviceImage {
+    height: 100%;
+    width: 88%;
+}
+}
+
+
+@media (min-width: 768px) {
+  .imgColumn {
+    flex: 0 0 50%;
+    max-width: 50%;
+    object-fit: cover;
+  }
+  
+}
+
+@media(max-width: 768px){
+  .servicesDescription{
+    padding: 2% 3%;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: column;
+  }
+}
+@media(max-width: 890px){
+  .serviceImage{
+    object-fit: cover;
+  }
+}
